@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  $myFont: Helvetica, sans-serif;
+$myColor: black;
+$myColor1:white;
+$myFontSize: 18px;
+$myWidth:1200px;
+$myHeight:900px;
+$txtalign: center;
+$bradius:5px;
+$bgcolor:#0099cc;
+$bgcolor1:#4CAF50;
+$bgimage:url("https://i.pinimg.com/originals/da/d7/96/dad7967d732c8119ed35942cb8f16471.jpg");
+body {
+    font-family: $myFont;
+    font-size: $myFontSize;
+    color: $myColor;
+    background-image:$bgimage;
+    
+        
+  }
+  
+  #container {
+    width: $myWidth;
+    height:$myHeight;
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  input[type=submit]:hover {
+    background-color: $bgcolor1;
+  }
+  
+input[type=submit] {
+    width: 100%;
+    background-color: $bgcolor1;
+    color: $myColor1;
+    padding: 14px 20px;
+    margin: 8px 0;
+    
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ form {
+    border-radius: $bradius;
+    background-color:$myColor1;
+    padding: 20px;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 25%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 24%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  
+  .header {
+    background-color:rgb(122, 231, 122);
+    color: $myColor1;
+    padding: 15px;
+    text-align:$txtalign;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color:$bgcolor ;
+    color: $myColor1;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color:$bgcolor;
+  }
