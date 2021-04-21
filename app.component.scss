@@ -1,6 +1,6 @@
 .homePage {
   width:auto;
- 
+  font-family: Poppins;
   text-align: justify;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -12,16 +12,15 @@
   
  
   
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
   
   text-align: left;
-  
-   font-family: poppins;
-    font-weight:bolder;
-    font-size: 26px;
+  font-family: Poppins;
+    
+    font-weight: 900;
+    font-size: 27px;
     line-height: 59px;
-   
-    color: #000;
+
     
     
     
@@ -184,7 +183,7 @@ li a {
      }
 .some-page-wrapper
 {
-  color: #f47a23;
+  color: #fc6d07;
 }
      .splitcolumn2
      {
@@ -300,25 +299,38 @@ margin-right: 200px;
   
 }
 .image-column21{
-  font-weight: 700;
+  font-weight:bold;
       font-family: poppins;
           width: 776;
           height: 436;
-          padding-top: 100px;
-          padding-bottom: 100px;
+          padding-top: 30px;
+          padding-bottom: 40px;
           justify-content: stretch;
-          padding-left: 100px;
+          padding-left: 290px;
           text-align: left;
           margin:0px 0px 25px;
           font-size:21px;
-  text-align: center;
+          text-align: center;
 }
-
+.image-column22{
+  font-weight:bold;
+      font-family: poppins;
+          width: 776;
+          height: 436;
+          padding-top: 30px;
+          padding-bottom: 40px;
+          justify-content: stretch;
+          padding-right:250px;
+          text-align: left;
+          margin:0px 0px 25px;
+          font-size:21px;
+          text-align: center;
+}
 
 .aapicenter3{
   background-color: white;
-    padding: 50px ;
-    padding-bottom: 50px;
+    padding-top: 70px ;
+    padding-bottom: 0px;
    font-family: poppins;
     flex: 50%;
     text-align: center;
@@ -511,7 +523,8 @@ justify-content: space space-between;
 }
 .new1
 {
-  width:150px ;
+
+  width:250px ;
   height: 50px;
   float: left;
   padding-right: 200px;
@@ -520,12 +533,27 @@ justify-content: space space-between;
   border-radius: 48px;
   box-sizing: border-box;}
 
+.new11
+{
+  width:250px ;
+  height: 50px;
+  float: left;
+  padding-right: 200px;
+  padding-left: 10px;
+  padding-top: 20px;
+  
+  border-radius: 48px;
+  box-sizing: border-box;
+  
+}
+
+
   .submitt {
     
     background-color: black;
     color: white;
-    padding: 14px 28px;
-    margin: 8px 0;
+    padding: 12px 28px;
+    font-weight: bolder;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -534,12 +562,22 @@ justify-content: space space-between;
   input[type=text] {
    justify-content: space-evenly;
     padding: 12px 20px;
-    margin: 8px 0;
+    
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-sizing: border-box;
   }
+  
+  input[type=text1] {
+    justify-content: space-evenly;
+     padding: 12px 80px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     box-sizing: border-box;
+   }
 .new2
 {
   width:150px ;
@@ -548,9 +586,17 @@ justify-content: space space-between;
   padding-left: 20px;
   padding-top: 20px;
 }
+.new21
+{
+  width:150px ;
+  height: 50px;
+  padding-right: 400px;
+  padding-left: 370px;
+  padding-top: 30px;
+}
 .new4
 {
-  padding-left: 100px ;
+  padding-left: 200px ;
   padding-bottom: 10px;
   padding-top: 100px;
   color: white;
@@ -559,28 +605,46 @@ justify-content: space space-between;
 .new5
 {
   
-  padding-left: 70px ;
+  padding-left: 30px ;
   padding-bottom: 10px;
   padding-top: 20px;
   color: white;
   font-size: medium;
 }
+.lastform
+{
+padding-left: 200px;
+
+}
 .finalform
 {
+  width: 321px;
+    aspect-ratio: auto 321 / 99;
+    height: 99px;
+  width:auto;
+  padding-right: 200px;
+  padding-left: 55px;
+  padding-bottom: 30px;
+
   display: flex;
   flex-direction: column;
- background-color: dimgrey;
-  padding-left: 0px;
-  background-image: url("C:/Users/USER/webpage/src/assets/aapi_background_mobile3.jpg") ;
-  background-repeat: no-repeat;
+
   
-      width: max-content;
+  background-image: url("C:/Users/USER/webpage/src/assets/aapi_background_mobile3.jpg") ;
+  
+  
+    
     font-family: Poppins;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    line-height: 14px;
-    margin: 0 10px;
+   
+   
+    background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 0%;
+  height: 100%;
+  
    
 
     
@@ -621,7 +685,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 ::placeholder {
-  color:#17a2b8;
+  color:#129db3;
   opacity: 1; /* Firefox */
 }
 

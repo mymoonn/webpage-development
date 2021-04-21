@@ -1,0 +1,369 @@
+
+
+.flex-container {
+    display: flex;
+    
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .flex-item-left {
+    
+    padding: 10px;
+    flex: 50%;
+    text-align: center;
+  }
+  .a{
+    width: 418;
+    height: 360;
+  }
+  .flex-item-right {
+    background-color: white;
+    padding: 10px;
+    flex: 50%;
+    text-align: center;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      width: auto;
+      height: auto;
+      flex-direction: column;
+    }
+  }
+  
+  
+  .some-page-wrapper {
+    margin: 15px;
+    
+   
+  }
+  
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .double-column1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+  }
+  
+  .blue-column1 {
+   background-color: white;
+    height: 500px;
+    text-align: left;
+    justify-content: left;
+  }
+  
+  .green-column1 {
+    background-color: white;
+      height: 500px;
+      
+  }
+  .special{
+    width:"350";
+     height:"310";
+     text-align: center;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column2 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+    text-align: center;
+     
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    text-align: center;
+    font-size: medium;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card {
+    width: 230px;
+    height: 215;
+    
+    padding: 4px;
+    font:small;
+    text-align: center;
+    
+    margin: 20px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }div {
+    display: block;
+  }
+  .host {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .footer {
+    background: #2b323d;
+      mix-blend-mode: multiply;
+      position: absolute;
+      
+      width: 100%;
+      margin-top: 50px;
+      font-size: small;
+      color: #fff;
+      text-align: left;
+  }
+  .productivity{
+    font-weight: 300;
+      font-size: smaller;
+      line-height: 17px;
+      color: #000;
+      max-width: 240px;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  [class*='column-'] {
+    float: left;
+    padding: 1em;
+    width: 100%;
+    min-height: 1px; 
+    }
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+        background-color: #fff;
+      }
+      
+      /* Remove extra left and right margins, due to padding */
+      .row {margin: 0 -5px;}
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive columns */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+          column-gap: 40px;
+          
+  
+        }
+      }
+      .text-align{
+        width: 50px;
+    height: 50px;
+    
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;}
+    .last1{
+      text-align:left;
+      color: white;
+    }
+    .last{
+       background-image: url("https://aapi.io/pages-aapi-services/assets/imagebacklastpage.png");
+      background-repeat: no-repeat;
+      
+      background-position: center -82px;
+      background-position-x: center;
+      background-position-y: -82px;
+      
+    }
+    body{
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: left;
+      background-color: #fff
+    }
+  
+  
+    * {
+      box-sizing: border-box;
+    }
+    
+    input[type=text] {
+      width: 70%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+    
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+      background-color: #6c757d;
+      color:#17a2b8;
+    }
+    
+    input[type=submit] {
+      background-color: #f47a23;;
+      color: white;
+      font-size:20px;
+      padding: 2px 8px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      text-align: right;
+      }
+    
+    
+    
+    .container2 {
+      border-radius: 4px;
+      background-color:#6c757d;
+     
+      
+    }
+    
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+      
+    }
+    .imgform{
+    text-align:center;
+    }
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+      
+      color: #17a2b8;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .left
+    { float: left;
+      }
+    .right
+    {float:right;
+      }
+    .last1{
+    text-align:center;
+    color:white;
+    
+    }
+    
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+      
+    }
+  
+    .header {
+      justify-content: space-between;
+      display: flex;
+      color: black;
+      top: 0;
+      width: 100%;
+    }
+    
+    .content {
+      padding: 150px;
+      font-size: smaller;
+    }
+    
+    
+    
+    .submit11{
+      background-color: #f47a23;;
+    color: white;
+    font-size:20px;
+    padding: 2px 8px;
+    text-align: right;
+    border-radius: 20px;
+    cursor: pointer;
+    }
+    .submit12{
+      background-color: white;;
+    color: black;
+    font-size:20px;
+    padding: 2px 8px;
+    text-align: right;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: right;
+    }
+    .why
+    {
+  width: 920;
+  height: 150;
+  line-height: normal;
+  font: normal;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 22px 75px 0px;
+  justify-items: stretch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+    }
+    .new1{
+      text-align: right;
+    }
